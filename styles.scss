@@ -68,11 +68,9 @@ p {
 .dot {
     height: 149px;
     width: 149px;
-    background-color:$color-white;
-    border-radius: 50%;
-    border-color:$color-white;
+    background-color: $color-white;
+    border-color: $color-white;
     border-width: 5px;
-    display: inline-block;
     margin-left: 125px;
     margin-right: 123px;
     margin-bottom: -76px;
@@ -81,9 +79,11 @@ p {
 img {
     height: 144px;
     width: 140px;
-    border-radius: 50%;
-    display: inline-block;
     position: absolute;
     margin-left: 130px;
     margin-bottom: -222px;
+}
+.dot,img {
+     border-radius: 50%;
+    display: inline-block;
 }
