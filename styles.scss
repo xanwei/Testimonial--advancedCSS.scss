@@ -1,1 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import "./constants";
+*{
+    box-sizing: border-box;
+}
 
+body {
+    background-image: linear-gradient(180deg, background-color: $color-white 100%, background-color: $color-purple 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 70px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.testimonialcard {
+    display: flex;
+    max-width: 1500px;
+}
+
+header {
+    border: 0em;
+    border-radius: 25px;
+    width: 400px;
+    height: 650px;
+    margin: 35px;
+    box-shadow: 20px 20px 35px $color: $color-gray;
+}
+
+p {
+    padding-left: 35px;
+    padding-top: 35px;
+    padding-right: 35px;
+    font-size: x-large;
+    border-radius: 25px;
+}
+
+.card-tekst1 {
+    background-color: $color-white #fff;
+}
+
+.card-tekst2 {
+    color:$color-white;
+    border-radius: 0px 0px 25px 25px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+.card-tekst3 {
+    color: $color-light-blue;
+    padding-top: 5px;
+    padding-bottom: 100px;
+  
+}
+.card-tekst2, .card-tekst3 {
+    background-color: $color-purple;
+    padding-left: 50px;
+    box-shadow: 35px $color-gray;
+}
+
+
+.dot {
+    height: 149px;
+    width: 149px;
+    background-color:$color#fff;
+    border-radius: 50%;
+    border-color:$color#fff;
+    border-width: 5px;
+    display: inline-block;
+    margin-left: 125px;
+    margin-right: 123px;
+    margin-bottom: -76px;
+}
+
+img {
+    height: 144px;
+    width: 140px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    margin-left: 130px;
+    margin-bottom: -222px;
+}
