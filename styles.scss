@@ -6,7 +6,6 @@
 
 body {
     background-image: linear-gradient(180deg, background-color: $color-white 100%, background-color: $color-purple 100%);
-    display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -18,15 +17,16 @@ body {
     padding-top: 30px;
     padding-right: 30px;
 }
+body, .testimonialcard {
+ display: flex;
+}
 
 .testimonialcard {
-    display: flex;
     max-width: 1500px;
 }
 
 header {
     border: 0em;
-    border-radius: 25px;
     width: 400px;
     height: 650px;
     margin: 35px;
@@ -38,7 +38,9 @@ p {
     padding-top: 35px;
     padding-right: 35px;
     font-size: x-large;
-    border-radius: 25px;
+}
+header, p {
+     border-radius: 25px;
 }
 
 .card-tekst1 {
@@ -84,6 +86,6 @@ img {
     margin-bottom: -222px;
 }
 .dot,img {
-     border-radius: 50%;
+    border-radius: 50%;
     display: inline-block;
 }
