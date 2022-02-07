@@ -5,18 +5,18 @@
 }
 
 body {
-    background-image: linear-gradient(180deg, background-color: $color-white 100%, background-color: $color-purple 100%);
+    background-image: linear-gradient(180deg, background-color= $color-white 100%, background-color= $color-purple 100%);
     align-items: center;
     justify-content: center;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
     font-family: 'Lato', sans-serif;
-    font-size: 70px;
     padding-left: 30px;
     padding-top: 30px;
     padding-right: 30px;
 }
+
 body, .testimonialcard {
  display: flex;
 }
@@ -30,7 +30,7 @@ header {
     width: 400px;
     height: 650px;
     margin: 35px;
-    box-shadow: 20px 20px 35px $color: $color-gray;
+    box-shadow: 20px 20px 35px $color-gray;
 }
 
 p {
@@ -89,3 +89,6 @@ img {
     border-radius: 50%;
     display: inline-block;
 }
+
+
+
